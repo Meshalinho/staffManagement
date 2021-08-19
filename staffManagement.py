@@ -1,4 +1,14 @@
 def main():
+
+    """
+    The main method is used as the starrting point of this program where the user is presented with the different functions and can choose between them from.
+
+    Each choice directs the user to the desired feature, if the users fails to
+    correctly select a certain function they are asked whether they want to continue or not, if not they exit, otherwise the user gets another shot at entering the
+    correct input.
+
+    
+    """
     print("1.Display all Staff Records\n" +
           "2.Display the Record of a particular Staff Member\n" +
           "3.Display all Staff Salary\n" +
