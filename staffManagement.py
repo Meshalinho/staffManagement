@@ -1,10 +1,13 @@
 ################################################################################################################
 
 def enterToContinue():
-    input("Press Enter to continue...\n") # Function used to shorten the process of returning to the main menu
+    """
+    Function used to shorten the process of returning to the main menu when finished working with a certain function or when entering incorrect output
+    """
+    input("Press Enter to continue...\n")
     main()
 
-################################################################################################################ 
+################################################################################################################
 
 
 def main():
