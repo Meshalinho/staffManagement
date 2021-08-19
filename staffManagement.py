@@ -1,3 +1,12 @@
+################################################################################################################
+
+def enterToContinue():
+    input("Press Enter to continue...\n") # Function used to shorten the process of returning to the main menu
+    main()
+
+################################################################################################################ 
+
+
 def main():
 
     """
@@ -7,7 +16,7 @@ def main():
     correctly select a certain function they are asked whether they want to continue or not, if not they exit, otherwise the user gets another shot at entering the
     correct input.
 
-    
+
     """
     print("1.Display all Staff Records\n" +
           "2.Display the Record of a particular Staff Member\n" +
