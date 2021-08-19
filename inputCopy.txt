@@ -1,0 +1,8 @@
+Staff ID 	Staff Name       Hour 	    Days
+1004       Fatima Hassan         18          7
+1003      Suleiman Wasim          2          1
+1002        Majed Sameer         18          2
+1006       Muhammad Adel          8          1
+1005       Muhsim Zuheir          8          1
+1001    Aisha Abdullatif         10          1
+1000     Meshal Alsaleem          0          0
