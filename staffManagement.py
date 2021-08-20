@@ -1,7 +1,11 @@
 ################################################################################################################
 def addStaff():
 
-    
+    """
+    This function allows the user to add information about new staff from first and last names,
+        since the staff is new to the database they get assigned a default value of zero for both hours and days
+
+    """
     try:
         inputFile = open("inputCopy.txt", 'r')
         IDList = []
