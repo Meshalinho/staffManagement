@@ -3,7 +3,7 @@ def getSalary():
     try:
         inputFile = open("inputCopy.txt", 'r')
         wage = float(input("Please Enter the Wage (SAR): "))
-        print() #Prints empty line to keep space from the prompt and the header
+        print() # Prints empty line to keep space from the prompt and the header
         linesList = inputFile.readlines()
         linesList.pop(0)
         contentCopy = [] # A list of lists which each element's format WILL BE [ID, NAME, HOURS, DAY] is created
@@ -19,7 +19,7 @@ def getSalary():
             finalList.append(contentCopy)  # Contents of contentCopy are appended by the for loop inside finalList
 
         for i in finalList:
-            hours = int(i[3]) 
+            hours = int(i[3])
             days = int(i[4])
             overtime = hours - (days * 8)
             salary = ((hours - overtime) * wage) + (overtime * wage * 0.10)
