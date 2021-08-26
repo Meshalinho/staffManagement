@@ -1,5 +1,21 @@
 ################################################################################################################
 def updateStaff():
+
+
+    """
+
+
+    The user can update and change a specific staff member's info by first:
+    ---- Firstly, read and store the information of the file in a list----
+    1) Enter the desired staffID you want changed
+    2) Enter the sign-in and sign-out for the staff member
+    3) Check for logic i.e: sign-out cannot be before sign-in
+    4) From the entered sign-in and sign-out we can determine the hours
+    5) We then access the information from the file and edit according to the index
+        of the staffID
+    6) View message that the information has been updated
+    
+    """
     try:
         inputFile = open("inputCopy.txt", 'r')
         linesList = inputFile.readlines()
