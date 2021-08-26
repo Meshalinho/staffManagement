@@ -1,5 +1,18 @@
 ################################################################################################################
 def staffID():
+
+    """
+    This function gives the user the ablilty to view explicitly ONE staff Member
+        by providing the staffID
+
+    1) The file is read and its contents are stored in a list form
+    2) User enters ID and then we check if the ID exists or not
+    3) If the ID is not found we proceed to raise a ValueError, otherwise we move
+        on to print the information of ONLY the desired staff member which ID we previously
+        entered
+    4) We then close the file
+
+    """
     inputFile = open("inputCopy.txt", 'r')
     linesList = inputFile.readlines() # List of the files' lines are stored in linesList
     contentCopy = []
