@@ -1,4 +1,12 @@
 def getAllStaffRecord():
+
+    """
+    In this function we give the user the ability to view the staff record,
+    the function views the variable linesList by inserting it in a for loop and
+    printing each line one by one.
+
+
+    """
     try:
         inputFile = open("inputCopy.txt", 'r') # Input file is opened in reading mode
         linesList = inputFile.readlines() # List of the files' lines are stored in linesList
