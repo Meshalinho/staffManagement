@@ -1,4 +1,16 @@
 ################################################################################################################
+
+"""
+This feature gives the user the ability to remove a desired staff member by
+providing their ID:
+    1) We first read the file and store its contents in a list
+    2) Ask the user to provide the ID they desire to delete fromt the file
+    3) Check if the entered ID truly exists in the file, if not raise a ValueError,
+        otherwise remove all information that belongs to the user
+    4) When the information is removed from the list, rewrite the file with the new
+        updated information
+    5) Close the file 
+"""
 def deleteStaff():
     try:
         inputFile = open("inputCopy.txt", 'r')
@@ -44,4 +56,4 @@ def deleteStaff():
 
 
 
-################################################################################################################ 
+################################################################################################################
