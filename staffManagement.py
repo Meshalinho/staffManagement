@@ -1,9 +1,4 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
+
 ################################################################################################################
 
 def enterToContinue():
@@ -192,7 +187,7 @@ providing their ID:
         otherwise remove all information that belongs to the user
     4) When the information is removed from the list, rewrite the file with the new
         updated information
-    5) Close the file 
+    5) Close the file
 """
 def deleteStaff():
     try:
@@ -288,7 +283,7 @@ def updateStaff():
     5) We then access the information from the file and edit according to the index
         of the staffID
     6) View message that the information has been updated
-    
+
     """
     try:
         inputFile = open("inputCopy.txt", 'r')
