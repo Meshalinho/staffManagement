@@ -1,5 +1,10 @@
 ################################################################################################################
 def getSalary():
+
+    """
+    In this function we give the user the ability to view the salary of the staff
+        members.
+    """
     try:
         inputFile = open("inputCopy.txt", 'r')
         wage = float(input("Please Enter the Wage (SAR): "))
@@ -19,7 +24,7 @@ def getSalary():
             finalList.append(contentCopy)  # Contents of contentCopy are appended by the for loop inside finalList
 
         for i in finalList:
-            hours = int(i[3]) 
+            hours = int(i[3])
             days = int(i[4])
             overtime = hours - (days * 8)
             salary = ((hours - overtime) * wage) + (overtime * wage * 0.10)
